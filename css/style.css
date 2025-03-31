@@ -15,6 +15,12 @@ body {
 * {
   box-sizing: border-box;
 }
+.h1 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
 
 .credits {
   color: #777;
@@ -28,4 +34,47 @@ body {
 .credits a {
   color: #000;
   font-weight: bold;
+}
+
+.component-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 50vh;
+  background-color: rgb(214, 95, 95);
+}
+
+.blog-card {
+  width: 340px; /*make this more responsive*/
+  height: 504px; /*make this more responsive*/
+  background-color: rgb(206, 189, 37);
+}
+.top-card {
+  height: 288px;
+  background-color: royalblue;
+}
+.bottom-card {
+  height: 216px;
+  background-color: seagreen;
+}
+
+.bottom-north {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.bottom-south {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+#readmore-btn {
+  margin-top: 16px;;
+}
+
+.blog-card__image {
+  width: 100%;
+  height: 288px;
+  object-fit: cover;
 }
